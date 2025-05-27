@@ -34,6 +34,10 @@ Allows testing the blood draw on yourself.
 Fully Configurable:
 All key features, chances, effects, Discord webhook, and item requirements can be adjusted in the config file.
 
+
+----------------------------------
+
+
 How It Works
 EMS player uses /takeblood (or the needle item, if enabled).
 
@@ -53,6 +57,11 @@ A log is sent to Discord.
 
 All blood bag items display patient info and blood type in ox_inventory, using metadata.
 
+
+-----------------------
+
+
+
 Requirements
 QBCore Framework
 
@@ -66,6 +75,10 @@ Configuration
 All blood types, item names, effect chances, and Discord settings are found in config.lua.
 
 The needle item usage feature can be toggled on or off via the config.
+
+
+-------------
+
 
 Installation
 Place the rs-blood folder in your server’s resources directory.
